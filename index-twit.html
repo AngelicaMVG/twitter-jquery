@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./css/main-twitJ.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"> <img src="img/twitter.ico" alt="brand"></a>
+    </div>
+		<div class="title-nav">
+			<p>Twitter</p>
+		</div>
+</nav>
+	<section class="container">
+		<form id="to-do-form">
+			<div class="form-group">
+				<label for="message">Comentario</label>
+				<textarea id="message" name="message" class="form-control" rows="3"></textarea>
+			</div>
+			<button id="add-button" type="submit" class="btn btn-info" disabled>Agregar</button>
+		</form>
+	</section>
+	<section id="posts" class="container">
+	</section>
+	<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="./js/main-twitJ.js"></script>
+</body>
+</html>
